@@ -25,9 +25,10 @@ requirements:
     - pip
     - python
     - maturin >=1,<2
-    - lua >=5.4,<5.5  # [win]
+    - lua 5.4.*  # [win]
   run:
     - python
+    - lua 5.4.*  # [win] _burner_redis.pyd links lua.dll on Windows
 
 test:
   requires:
