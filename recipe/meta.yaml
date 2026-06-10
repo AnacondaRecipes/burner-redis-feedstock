@@ -42,6 +42,7 @@ about:
   dev_url: https://github.com/PrefectHQ/burner-redis
   doc_url: https://github.com/PrefectHQ/burner-redis
   summary: An embedded, in-process Redis-compatible database
+  description: An embedded, in-process Redis-compatible database
   license: MIT
   license_family: MIT
   license_file:
